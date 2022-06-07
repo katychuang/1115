@@ -1,4 +1,7 @@
-/* Hello World Example */
+/* 
+ * Hello World Example
+ * Multiline comment
+ */
 
 public class HelloWorld {
 
