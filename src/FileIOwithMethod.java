@@ -14,7 +14,7 @@ public class FileIOwithMethod {
         char grade;
         String name;
 
-        Scanner scanner = new Scanner(new File("roster3.txt"));
+        Scanner scanner = new Scanner(new File("roster2.txt"));
         PrintStream ps = new PrintStream("grades.txt");
 
         while (scanner.hasNext()) {
