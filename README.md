@@ -10,6 +10,26 @@ source code examples for intro to java in the `src` folder
 cd src && javac HelloWorld.java && java Helloworld
 ```
 
+## Running programs with packages
+
+In your source code you might have defined a package name. To run such files, your code should be saved in a directory with the package name.
+
+For example, `example/Hello.java` is defined with package `example` and saved in the subfolder `example` with the filename `Hello.java`. 
+
+.
+├── example
+│   └── Hello.java
+
+From the parent directory, you can run the following commands:
+
+```sh
+javac example/Hello.java
+java example.Hello
+```
+
+The first command will create a `Hello.class` executable in the example folder.
+The second command will refer to the Hello class that is in the example package/folder.
+
 This line says change directory to `src` and compile `HelloWorld.java` and run the `HelloWorld` program.
 
 ## To record a terminal session
