@@ -16,9 +16,11 @@ In your source code you might have defined a package name. To run such files, yo
 
 For example, `example/Hello.java` is defined with package `example` and saved in the subfolder `example` with the filename `Hello.java`. 
 
+```
 .
 ├── example
 │   └── Hello.java
+```
 
 From the parent directory, you can run the following commands:
 
